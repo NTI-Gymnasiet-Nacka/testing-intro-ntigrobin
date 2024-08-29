@@ -1,8 +1,10 @@
 # Gradkonverterare
 
 def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
+    celsius = input("")
+    celsius = float(celsius)
+    fahrenheit = celsius * (9 / 5) + 32
 
+    print(f"{fahrenheit:.2f}")
 if __name__ == "__main__":
     main()
